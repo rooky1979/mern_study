@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 const Login = () => {
   const [formData, setFormData] = useState({
     email: '',
+    password: '',
   });
 
   const dispatch = useDispatch();
